@@ -1,0 +1,255 @@
+
+.top-titlePARAblue {
+    margin-top: 30px;
+    font-family: "quiche-display", sans-serif;
+    text-align: center;
+    font-size: 5em;
+    color: rgb(0, 145, 213);
+    mix-blend-mode: multiply;
+}
+
+.top-titlePARAyellow {
+    margin-top: -165px;
+    /* margin-bottom: -1cm; */
+    margin-right: 5px;
+    font-family: "quiche-display", sans-serif;
+    text-align: center;
+    font-size: 5em;
+    color:rgb(255, 217, 0);
+    mix-blend-mode: multiply;
+}
+
+.titles {
+    font-family: "cronos-pro", sans-serif;
+    font-weight: 600;
+    margin-bottom: 0.5cm;
+    margin-top: 1cm;
+    /* text-align: center; */
+    /* text-decoration: underline; */
+    font-style: normal;
+    font-size: 18pt;
+    color: rgb(0, 145, 213);
+    mix-blend-mode: multiply;
+  }
+
+.state-content img {
+    width: auto;
+    height:auto;
+    max-height: 40%;
+  }
+
+  .albums {
+    align-content: center;
+    display:flex;
+    width: 8cm;
+    height: 8cm;  
+    gap:1cm;
+    /* margin-bottom: -2cm; */
+    /* width: 20vw;
+    height: 20vw; */
+  }
+
+
+
+
+
+.state {
+    height:100vh;
+    position:relative;
+    width:30vw;
+    margin:1em;
+}
+
+.state-content {
+    max-width: 80%;
+    margin: 0 auto;
+    color: rgb(16, 88, 0);
+    /* background: #01016b; */
+    font-family: "cronos-pro", sans-serif;
+    border: 0px solid rgb(255, 255, 255);
+    overflow: scroll;
+}
+
+.group {
+    overflow: auto; /* Clears the floats */
+    margin-bottom: 10px; /* Adds space between each group */
+}
+
+/* .artist-grid {
+    display: grid;
+    grid-template-columns: 5.1cm 5cm;
+} */
+
+
+
+label {
+    font-family: "cronos-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.90em;
+}
+
+.artistsblue {
+  font-family: "quiche-sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 20pt;
+  text-decoration: underline;
+  color: rgb(0, 145, 213);
+  padding-top: 0.5cm;
+  mix-blend-mode: multiply;
+}
+
+.artistsyellow {
+font-family: "quiche-sans", sans-serif;
+font-weight: 800;
+font-style: normal;
+font-size: 20pt;
+text-decoration: underline;
+margin-left: 0.06cm;
+color: rgb(255, 217, 0);
+margin-top: -1.5cm;
+margin-bottom: -0.5cm;
+}
+
+.artist-grid img {
+    /* max-width: 5cm;
+    min-width: 3cm; */
+    /* position: relative;
+    float: left; 
+    margin-right: 10px; 
+    width: 150px; 
+    width: 150px; 
+    height: auto;  */
+    float: left; /* Floats the image to the left */
+    margin-right: 20px; /* Adds space between the image and the text */
+    width: 170px; /* Set a width for the image */
+    height: auto; /* Maintains aspect ratio */
+}
+
+
+.artists-info {
+    text-align:justify;
+    hyphens: auto;
+    /* margin-right: 2cm; */
+    position: relative;
+    font-size: 15px;
+    color: rgb(0, 145, 213);
+    list-style: none;
+    letter-spacing: 0.04em;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+    /* overflow: auto; */
+
+}
+.recommendationsyellow {
+  position: relative;
+  margin-top: 1cm;
+  font-size: 20pt;
+  margin-bottom: -1.9cm;
+  margin-left: 0.06cm;
+  /* padding-bottom: 10pt; */
+  font-family: "quiche-sans", sans-serif;
+  text-decoration: underline;
+  color: rgb(255, 217, 0);
+  mix-blend-mode: multiply; 
+}
+
+.recommendationsblue {
+position: relative;
+margin-top: 1cm;
+font-size: 20pt;
+/* padding-bottom: 10pt; */
+font-family: "quiche-sans", sans-serif;
+text-decoration: underline;
+color: rgb(0, 145, 213);
+mix-blend-mode: multiply; 
+}
+
+.titlesgenre {
+    position: relative;
+    /* margin-bottom: -1cm; */
+    font-family: "quiche-display", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: underline;
+    color: rgb(0, 145, 213);
+    mix-blend-mode: multiply;
+  }
+  
+  .titlesgenreyellow {
+    font-family: "quiche-display", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: -1.6cm;
+    position: relative;
+    margin-right: 0%;
+    margin-left: 2pt;
+    /* display: block; */
+    text-decoration: underline;
+    color:rgb(255, 217, 0);
+    mix-blend-mode: multiply;
+  }
+
+  .titlesgenre2 {
+    position: relative;
+    margin-top: -120px;
+    padding-bottom: 10pt;
+    font-family: "quiche-display", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: underline;
+    color: rgb(0, 145, 213);
+    mix-blend-mode: multiply;
+  }
+  
+  .titlesgenreyellow2 {
+    font-family: "quiche-display", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: -2cm;
+    position: relative;
+    margin-right: 0%;
+    margin-left: 2pt;
+    /* display: block; */
+    text-decoration: underline;
+    color:rgb(255, 217, 0);
+    mix-blend-mode: multiply;
+  }
+  
+  
+  .titlesgenregaucho {
+    /* position: fixed; */
+    margin-top: 0%;
+    margin-bottom: 20%;
+    margin-right: 0%;
+    margin-left: 0pt;
+    font-family: "quiche-sans", sans-serif;
+    text-decoration: underline;
+    color: rgb(0, 145, 213);
+    mix-blend-mode: multiply;
+  }
+  
+  .titlesgenreyellowgaucho {
+    font-family: "quiche-sans", sans-serif;
+    /* position: absolute; */
+    margin-top: -53%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    margin-left: 2pt;
+    display: block;
+    text-decoration: underline;
+    color:rgb(255, 217, 0);
+    mix-blend-mode: multiply;
+  }
+  .description {
+    /* font-size: smaller; */
+    display: block;
+    position: relative;
+    /* margin-top: 2cm; */
+    color: rgb(0, 145, 213);
+  
+  }

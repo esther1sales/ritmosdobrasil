@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Os Ritmos do Brasil</title>
+    <link rel="stylesheet" href="https://use.typekit.net/prt8afj.css">
+    <link rel="stylesheet" href="main.css">
+</head> 
+<body>
+    <h1 class="hover-text" data-text="Os Ritmos do Brasil">Os Ritmos do Brasil</h1>
+    <p class="hover-text" data-text="This website was created as part of a project about Brazilian music. Brazil is mainly known internationally for its soccer, samba, and funk, but it has many other beautiful cultural expressions, primarily music-related. ‘Os Ritmos do Brasil’ (The Rhythms of Brazil) is an archive of the most famous Brazilian genres, their history, and their prominent representatives.">
+        This website was created as part of a project about Brazilian music. Brazil is mainly known internationally for its soccer, samba, and funk, but it has many other beautiful cultural expressions, primarily music-related. ‘Os Ritmos do Brasil’ (The Rhythms of Brazil) is an archive of the most famous Brazilian genres, their history, and their prominent representatives. 
+    </p>
+    <a href="carousel.html" class="start-button">START</a>
+
+    <script>
+        const button = document.querySelector('.start-button');
+        const header = document.querySelector('h1.hover-text');
+        const body = document.body;
+
+        button.addEventListener('mouseover', () => {
+            header.classList.add('frevo-effect');
+            body.classList.add('background-change');
+        });
+
+        button.addEventListener('mouseout', () => {
+            header.classList.remove('frevo-effect');
+            body.classList.remove('background-change');
+        });
+
+        button.addEventListener('click', (event) => {
+            event.preventDefault();
+            body.classList.add('fade-out');
+            setTimeout(() => {
+                window.location.href = button.href;
+            }, 1000); // The timeout should match the duration of your fade-out animation
+        });
+    </script>
+</body>
+</html>

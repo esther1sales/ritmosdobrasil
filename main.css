@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: quiche-sans, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hover-text {
+    position: relative;
+    color: white; /* Initial color is white */
+    transition: color 0.3s ease-in-out;
+}
+
+.hover-text::before,
+.hover-text::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+    mix-blend-mode: multiply; /* Apply multiply blend mode */
+}
+
+.hover-text::before {
+    color: rgba(0, 128, 255, 0.901);
+    transform: translate(-2px, -2px);
+    z-index: 1;
+}
+
+.hover-text::after {
+    color: rgb(255, 238, 0);
+    transform: translate(2px, 2px);
+    z-index: 2;
+}
+
+/* Apply FREVO effect when hovering over the start button */
+.frevo-effect::before,
+.frevo-effect::after {
+    opacity: 1; /* Make the layers visible */
+}
+
+.background-change {
+    background-color: white !important;
+    color: black !important; 
+}
+
+.background-change p {
+    color: rgb(0, 145, 213) !important; /* Keep the paragraph text green even when background changes */
+}
+
+/* Additional text styles */
+p {
+    font-family: cronos-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 40px;
+    color:rgb(0, 145, 213); /* Set the paragraph color to green */
+}
+
+.start-button {
+    font-family: cronos-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: black;
+    color: white;
+}

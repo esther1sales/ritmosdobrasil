@@ -1,0 +1,84 @@
+/* body {
+    background-color: rgb(255, 251, 211);
+    font-family: Arial, sans-serif;
+    margin-left: 1cm;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.overlap-container {
+    position: relative;
+    display: inline-block;
+    text-align: center; 
+} */
+
+/* CSS to centralize the image within the iframe */
+
+/* body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+} */
+
+.mapimage img {
+    margin-top: -22em;
+    width: 27em;
+    height: auto;
+    align-items: left;
+    margin-left: -1em;
+}
+
+.top-titleblue {
+    margin-right: -0.8em;
+    font-family: "quiche-display", sans-serif;
+    text-align: center;
+    font-size: 4em;
+    color: rgb(0, 145, 213);
+    mix-blend-mode: multiply;
+}
+
+.top-titleyellow {
+    margin-top: -135px;
+    margin-left: 0.7em;
+    font-family: "quiche-display", sans-serif;
+    text-align: center;
+    font-size: 4em;
+    color:rgb(255, 217, 0);
+    mix-blend-mode: multiply;
+}
+
+.intro {
+    text-align:justify;
+    hyphens: auto;
+    margin-left: 30em;
+    font-family: "cronos-pro", sans-serif;
+    font-weight: 400;
+    /* margin-right: 2cm; */
+    position: relative;
+    font-size: 10pt;
+    color: rgb(0, 145, 213);
+    list-style: none;
+    letter-spacing: 0.04em;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+    /* overflow: auto; */
+
+}
