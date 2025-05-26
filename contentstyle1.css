@@ -116,18 +116,10 @@ label {
 
 
 .artist-grid img {
-    /* max-width: 5cm;
-    min-width: 3cm; */
-    /* position: relative;
     float: left; 
-    margin-right: 10px; 
-    width: 150px; 
-    width: 150px; 
-    height: auto;  */
-    float: left; /* Floats the image to the left */
-    margin-right: 20px; /* Adds space between the image and the text */
-    width: 170px; /* Set a width for the image */
-    height: auto; /* Maintains aspect ratio */
+    margin-right: 20px; 
+    width: 170px; 
+    height: auto; 
 }
 
 
